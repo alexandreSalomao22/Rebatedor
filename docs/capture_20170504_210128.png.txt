@@ -1,0 +1,14 @@
+C:\Users\yamanuser\Documents\98tips\perl-snippets\hex-to-from-binary-pack-unpack>
+C:\Users\yamanuser\Documents\98tips\perl-snippets\hex-to-from-binary-pack-unpack>
+C:\Users\yamanuser\Documents\98tips\perl-snippets\hex-to-from-binary-pack-unpack> perl -we"print(q{00B4F0F4F0F0C2F2F3F8F0F0F0F0F0F8F4F0F0F0F0F0F0F0F0F0F0F0F4F0F0F0F0F0F0F0F1F1F0F0F3F0F7F3F0F0F0F0F0F0F5F1F1F1F0F0F0F5F0F2F1F4F1F3F2F0F2F3F3F1F7F0F1F1F1F3F1F8F0F5F0F2F1F0F8F34040404040404040F5F0F0F7F9F5F5F740404040404040F0F1F0F0F2F3F3F1F6F9F0F5F0F2F1F1F1F3F1F8F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F0F2F6F0F0F0F0F0F0F0F0F0F2F3F4F5F7F2F9F8F5F2F7F0F0F0F0F0F0F0F1})" | perl -we"print(pack(q{H*},<>))" | java -jar netcat.jar 127.0.0.1 4550 | od -t x1
+timeout
+0000000 00 58 f0 f4 f1 f0 f8 f2 f3 f8 f0 f0 f0 f0 f0 c1
+0000020 f0 f0 f0 f0 f0 f2 f0 f0 f0 f0 f0 f0 f0 f0 f0 f0
+0000040 f0 f0 f0 f0 f0 f2 f0 f5 f0 f2 f1 f4 f1 f3 f2 f0
+0000060 f2 f3 f3 f1 f7 f0 f2 f1 f0 f0 f0 f7 f0 f5 f0 f3
+0000100 f5 f1 f8 f7 f8 40 40 40 40 40 40 40 f0 f0 f0 f0
+timeout
+timeout
+^C
+C:\Users\yamanuser\Documents\98tips\perl-snippets\hex-to-from-binary-pack-unpack>
+C:\Users\yamanuser\Documents\98tips\perl-snippets\hex-to-from-binary-pack-unpack>
